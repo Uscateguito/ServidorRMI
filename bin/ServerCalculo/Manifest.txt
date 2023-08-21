@@ -1,0 +1,2 @@
+Main-Class: ServerCalculo.ImplementacionServer
+Built-by: Alejandro Uscategui

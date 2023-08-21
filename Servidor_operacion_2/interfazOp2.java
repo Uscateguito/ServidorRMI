@@ -5,6 +5,6 @@ import java.rmi.RemoteException;
 
 public interface interfazOp2 extends Remote {
 
-    String saludo(String holis) throws RemoteException;
+    String esPalindromo(String holis) throws RemoteException;
     
 }
