@@ -33,10 +33,20 @@ java Cliente/Cliente
 
 java ServerCalculo/ImplementacionServer
 
-...
+.
+.
+.
+
 ```
 
-- Para crear los .jar, es necesario igualmente hacer el proceso desde una carpeta raiz (cfm para agregar también el manifiesto)
+- Para crear los .jar, es necesario igualmente hacer el proceso desde una carpeta raiz (cfm para agregar también el manifiesto), crear un manifiesto en el cual indiquemos:
+
+```txt
+Main-Class: paquete.clase
+Built-by: Alejandro Uscategui
+```
+
+Además cada .jar debe incluir la clase main (indicada en el Manifiesto) y las clases relacionadas con los objetos que esta crea.
 
 ```shell
 jar cfm x.jar Manifest.txt x1.class x2.class ... xn.class
