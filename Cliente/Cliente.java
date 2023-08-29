@@ -8,7 +8,7 @@ import ServerCalculo.interfazServer;
 public class Cliente {
     public static void main(String[] args) {
         try {
-            interfazServer remoteService = (interfazServer) Naming.lookup("rmi://localhost/Calculo");
+            interfazServer remoteService = (interfazServer) Naming.lookup("rmi://192.168.0.18/Calculo");
             Scanner cin = new Scanner(System.in);
             String message = cin.nextLine();
 
