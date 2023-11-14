@@ -1,5 +1,7 @@
 # Configuración de RMI
 
+![121152](https://github.com/Uscateguito/taller_distribuidos_ServidorRMI/assets/103542486/40f57599-7bf8-4b99-a894-51a4905004a4)
+
 Este es un pequeño programa de pruebas para implementar un servidor RMI, para un sistema distribuido simple (Puede ejecutarse de manera local tal como está, en cambio si se quiere ejecutar en un sistema distribuido es necesario hacer uso de los JAR creados que sin embargo no funcionan bien por ahora).
 
 ## Ejecución
